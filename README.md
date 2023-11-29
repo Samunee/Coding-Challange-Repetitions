@@ -2,11 +2,11 @@
 
 Ini adalah program sederhana pake JavaScript buat cari pengulangan terpanjang dalam urutan DNA yang kamu masukkin.
 
-## Deskripsi
+## Gimana kerjanya?
 
 Program ini menggunakan fungsi `findLongestRepetition(sequence)` yang mengambil urutan DNA sebagai argumen dan mengembalikan panjang pengulangan karakter terpanjang dalam urutan tersebut.
 
-### Penjelasan
+### Cara Kerjanya
 
 - Program menggunakan variabel `maxRepetition` untuk menyimpan panjang pengulangan terpanjang yang ditemukan.
 - Variabel `currentRepetition` digunakan untuk menyimpan panjang pengulangan saat ini yang sedang dianalisis.
