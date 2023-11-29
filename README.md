@@ -1,6 +1,6 @@
-# Menemukan Pengulangan Terpanjang dalam Urutan DNA
+# Cari Pengulangan Terpanjang dalam Urutan DNA
 
-Ini adalah program JavaScript sederhana untuk menemukan pengulangan terpanjang dalam urutan DNA yang diberikan.
+Ini adalah program sederhana pake JavaScript buat cari pengulangan terpanjang dalam urutan DNA yang kamu masukkin.
 
 ## Deskripsi
 
@@ -17,13 +17,13 @@ Program ini menggunakan fungsi `findLongestRepetition(sequence)` yang mengambil 
 
 ## Penggunaan
 
-Program ini menggunakan modul `readline` untuk menerima input dari pengguna melalui terminal.
-Setelah menjalankan program, pengguna diminta untuk memasukkan urutan DNA, dan program akan menampilkan panjang pengulangan karakter terpanjang dari urutan tersebut.
+Program pake modul `readline` buat nerima input dari pengguna lewat terminal.
+Setelah dijalankan, pengguna diminta masukin urutan DNA, terus program bakal kasih tau panjang pengulangan karakter terpanjang.
 
 ## Contoh
 
 Input:
-Masukkan urutan DNA: <br>
+Masukin urutan DNA: <br>
 `ATTCGGGA`
 
 Output: <br>
