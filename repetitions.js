@@ -1,12 +1,15 @@
 // Function untuk mencari pengulangan terpanjang dalam urutan DNA
 function findLongestRepetition(sequence) {
-    let maxRepetition = 0; // TODO: Menyimpan panjang pengulangan terpanjang
-    let currentRepetition = 1; // TODO: Menyimpan panjang pengulangan saat ini
+    let maxRepetition = 0; // Menyimpan panjang pengulangan terpanjang
+    let currentRepetition = 1; // Menyimpan panjang pengulangan saat ini
 
     // Loop untuk memeriksa pengulangan terpanjang
     for (let i = 0; i < sequence.length - 1; i++) {
+        // Memeriksa apakah karakter saat ini sama dengan karakter berikutnya
         if (sequence[i] === sequence[i + 1]) {
             currentRepetition++; // Meningkatkan jumlah pengulangan saat karakter sama
+
+            // Memeriksa apakah pengulangan saat ini lebih besar dari pengulangan terpanjang yang telah disimpan
             if (currentRepetition > maxRepetition) {
                 maxRepetition = currentRepetition; // Update panjang pengulangan terpanjang
             }
