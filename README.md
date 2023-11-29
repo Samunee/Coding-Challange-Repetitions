@@ -20,23 +20,13 @@ Program ini menggunakan fungsi `findLongestRepetition(sequence)` yang mengambil 
 Program ini menggunakan modul `readline` untuk menerima input dari pengguna melalui terminal.
 Setelah menjalankan program, pengguna diminta untuk memasukkan urutan DNA, dan program akan menampilkan panjang pengulangan karakter terpanjang dari urutan tersebut.
 
-## Cara Menjalankan
-
-1. Pastikan Anda memiliki lingkungan Node.js terinstal.
-2. Salin kode di repository ini ke dalam file JavaScript (misal: `find_longest_repetition.js`).
-3. Buka terminal atau command prompt.
-4. Arahkan ke direktori tempat file JavaScript disimpan.
-5. Jalankan program dengan perintah `node find_longest_repetition.js`.
-6. Ikuti petunjuk untuk memasukkan urutan DNA.
-7. Program akan menampilkan panjang pengulangan karakter terpanjang.
-
 ## Contoh
 
 Input:
-Masukkan urutan DNA: 
+Masukkan urutan DNA: <br>
 `ATTCGGGA`
 
-Output:
+Output: <br>
 `3`
 
 
