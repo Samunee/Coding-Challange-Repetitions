@@ -22,7 +22,7 @@ Setelah dijalankan, pengguna diminta masukin urutan DNA, terus program bakal kas
 
 ## Contoh
 
-Input:
+Input: <br>
 Masukin urutan DNA: <br>
 `ATTCGGGA`
 
